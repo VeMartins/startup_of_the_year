@@ -1,0 +1,47 @@
+body,
+html {
+  width: 100%;
+  height: 100%;/* this is to make sure the body and html cover the whole screen*/
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; /*this line makes the image strech with the screen size*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	font-size: 3rem;
+	color: #b35577;
+}
+
+hr{
+border-color:#ad7bb3;
+border-width: 3px;
+max-width: 65px
+}
+
+.buffer{
+	height:10rem;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px;/* to make the edges of the button round*/
+	text-transform: uppercase;
+}
+
+.btn-primary{
+	background-color: #ad7bb3;
+	border-color:#ad7bb3;
+}
+.btn-primary:hover{
+	background-color: #e400ff;
+	border-color: #e400ff;
+	border-width: 4px;
+}
+
+/* this btn is not a bootsrap property it is the name we gave it to make it xl*/
+.btn-xl {
+padding: 1rem 2rem;
+}
